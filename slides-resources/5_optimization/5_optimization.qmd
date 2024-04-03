@@ -11,9 +11,12 @@ editor: visual
 author: Salaar Liaqat
 ---
 
+In interviews, generally do not asked optimization problems.
+Google doesn't ask. Meta does.
+
 ## Outline
 
--   Setting up an Optimization Problem
+-   Setting up an Optimization Problem (Linear programming)
 
 -   Dynamic Programming
 
@@ -160,6 +163,9 @@ print(f"Total Cost: {round(diet_problem.objective.value(), 2)}")
 ```
 
 # Dynamic Programming
+
+Interviews: Telus, Samsung, Google none asked about dynamic programming.
+Tends to be a theory question.
 
 ## Problem
 

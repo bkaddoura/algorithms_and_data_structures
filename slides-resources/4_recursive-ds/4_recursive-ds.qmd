@@ -11,6 +11,43 @@ editor: visual
 author: Salaar Liaqat
 ---
 
+Here is some stuff I found.
+https://www.geeksforgeeks.org/real-time-application-of-data-structures/
+
+Application of Tree:
+Trees are hierarchical structures having a single root node.  
+Some applications of the trees are: 
+XML Parser uses tree algorithms.
+The decision-based algorithm is used in machine learning which works upon the algorithm of the tree.
+Databases also use tree data structures for indexing.
+Domain Name Server(DNS) also uses tree structures.
+File explorer/my computer of mobile/any computer
+BST used in computer Graphics
+Posting questions on websites like Quora, the comments are a child of questions.
+Parsers(XML parser).
+Code Compression(zip).
+DOM in Html.
+Evaluate an expression (i.e., parse).
+Integral to compilers/automata theory.
+To store the possible moves in a chess game.
+To store the genealogy information of biological species.
+Used by JVM (Java Virtual Machine) to store Java objects. 
+Application of Binary Search Tree:
+D Game Engine.
+Computer Graphics Rendering.
+Routing table.
+
+I think the routing table example would work as the IP addresses 
+would be numbers.
+So as long as we can get a numerical property associated with nodes 
+then we can see the problem as a binary search tree when we want to 
+do comparisons based on that property?
+
+
+https://www.cs.usfca.edu/~galles/visualization/BST.html
+What about this? https://pypi.org/project/binarytree/
+
+
 ## Outline
 
 -   Trees
@@ -122,6 +159,15 @@ def print_inorder(root):
     print(root.val, end = " ")
     print_inorder(root.right)
 ```
+
+O(branches ^ depth)
+branches = 2
+depth = log base(2) n
+(Where n = number of nodes in tree)
+Becomes:
+2 ^ (log base(2) n)
+Which simplifies to:
+O(n)
 
 ## DFS: Inorder Traversal Code
 
